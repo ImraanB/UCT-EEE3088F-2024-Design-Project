@@ -1,1 +1,27 @@
+Your group’s GitHub link where all your PCB files, datasheets, etc are stored. This should
+be made public at the time of submission of the report.
 
+- What is the problem you are trying to solve?
+
+
+- Specifications and requirements?
+
+
+- Context diagram, block diagram, requirements diagram, etc.
+
+
+- How will you test your system? What have you added to your board to aid this? (things like
+jumpers and testing points)
+
+
+- Design decisions: comparison of components for use in your circuit, why did you choose
+certain components over others?
+
+
+Interfacing diagrams: How does your subsystem work with other subsystems?
+
+
+- Interfacing table: How does your subsystem connect to other subsystems?
+
+
+- Bill of materials – how much has your PCB costed (per board and total cost for 2).
