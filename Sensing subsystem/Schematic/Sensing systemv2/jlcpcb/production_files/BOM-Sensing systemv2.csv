@@ -1,0 +1,14 @@
+Comment,Designator,Footprint,LCSC
+100k,"R12,R17,R7",R_0805_2012Metric,C149504
+10k,"R14,R19,R9",R_0805_2012Metric,C17414
+12k,"R13,R18,R8",R_0805_2012Metric,C17444
+2k7,R4,R_0805_2012Metric,C17530
+220k,"R10,R11,R15,R16,R5,R6",R_0805_2012Metric,C17556
+47,"R1,R2,R3",R_0805_2012Metric,C17714
+SS8050,Q1,SOT-23-3,C2150
+LED,"D1,D2,D3",LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm_Clear,C405270
+D_Photo,"D4,D5,D6",LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm_Clear,C95399
+TestPoint,TP4,TestPoint_Pad_2.0x2.0mm,
+TestPoint,TP1,TestPoint_Pad_2.0x2.0mm,
+TestPoint,TP3,TestPoint_Pad_2.0x2.0mm,
+TestPoint,TP2,TestPoint_Pad_2.0x2.0mm,
