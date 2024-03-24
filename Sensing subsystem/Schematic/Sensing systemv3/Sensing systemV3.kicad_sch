@@ -2154,6 +2154,102 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "power:VDD"
 			(power)
 			(pin_numbers hide)
@@ -2561,6 +2657,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 151.13) (xy 129.54 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f40de2f-4c72-4ba7-9eb3-10875e8edf38")
+	)
+	(wire
+		(pts
 			(xy 243.84 71.12) (xy 243.84 69.85)
 		)
 		(stroke
@@ -2891,6 +2997,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 153.67) (xy 92.71 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bbd639e-7c2e-4d9c-8157-b405b592c1dd")
+	)
+	(wire
+		(pts
 			(xy 148.59 66.04) (xy 149.86 66.04)
 		)
 		(stroke
@@ -3031,6 +3147,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 153.67) (xy 64.77 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8dd859d-323b-46d2-be9a-ea1459d0de13")
+	)
+	(wire
+		(pts
 			(xy 222.25 86.36) (xy 226.06 86.36)
 		)
 		(stroke
@@ -3058,6 +3184,16 @@
 			(type default)
 		)
 		(uuid "bb0c811f-283e-4bc8-bacb-8407f8665318")
+	)
+	(wire
+		(pts
+			(xy 139.7 151.13) (xy 139.7 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd925766-d880-46d6-a450-f3797aebf43f")
 	)
 	(wire
 		(pts
@@ -3446,17 +3582,6 @@
 		)
 		(uuid "3407ba23-677c-4c40-966a-872488459696")
 	)
-	(label "BATT"
-		(at 92.71 157.48 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "452dec08-7164-402e-a728-f278c8bd11c0")
-	)
 	(label "PE8"
 		(at 69.85 157.48 90)
 		(fields_autoplaced yes)
@@ -3511,17 +3636,6 @@
 			(justify right bottom)
 		)
 		(uuid "8116c037-d87e-4f6c-b653-8b30d244dd39")
-	)
-	(label "BATT"
-		(at 64.77 157.48 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "88018d17-6a70-4fb2-ba27-20c1187fac83")
 	)
 	(label "PE15"
 		(at 87.63 157.48 90)
@@ -3645,6 +3759,72 @@
 		(uuid "fe43c7a5-d9fe-4dc4-8998-a4b2c92ea767")
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 129.54 153.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07fc5698-8610-4eea-b9fe-ddc81fea91f9")
+		(property "Reference" "#FLG02"
+			(at 129.54 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 129.54 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 129.54 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71d3ba37-738f-4b04-b16c-4ba3ec204d0a")
+		)
+		(instances
+			(project "Sensing systemV3"
+				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 85.09 175.26 0)
 		(unit 1)
@@ -3703,7 +3883,7 @@
 			(uuid "ed7c68e6-0a3e-44cc-af29-8c6277f1af20")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "#PWR014")
 					(unit 1)
@@ -3809,7 +3989,7 @@
 			(uuid "cdde2c4b-f817-4ff1-b374-bc22cba90cd5")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "D3")
 					(unit 1)
@@ -3876,7 +4056,7 @@
 			(uuid "7ec1cb5a-c44d-4645-9692-51c4714e8fee")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "JP6")
 					(unit 1)
@@ -3942,9 +4122,75 @@
 			(uuid "17a1313e-4262-4216-b41b-d0b4b8d2ea44")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 139.7 153.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1aa3016c-ddf1-4342-bdfa-ae150334af4d")
+		(property "Reference" "#FLG03"
+			(at 139.7 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 139.7 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 139.7 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc7046eb-4d7b-4f18-8c6c-8d38cfe37629")
+		)
+		(instances
+			(project "Sensing systemV3"
+				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -4047,7 +4293,7 @@
 			(uuid "15398d3b-ba48-47d5-8d07-613dfaac9031")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "R11")
 					(unit 1)
@@ -4112,7 +4358,7 @@
 			(uuid "178e43ef-7c88-403e-bee6-49ac49ff62c0")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "#PWR09")
 					(unit 1)
@@ -4218,7 +4464,7 @@
 			(uuid "dc41824d-f476-43a1-9ea3-31794f113da6")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "R13")
 					(unit 1)
@@ -4283,7 +4529,7 @@
 			(uuid "18d0779e-ee51-425c-bfc8-e941f5ab32d8")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "#PWR010")
 					(unit 1)
@@ -4350,7 +4596,7 @@
 			(uuid "5e8ff621-257a-47a2-a93e-67e10aa4a649")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "#PWR013")
 					(unit 1)
@@ -4456,7 +4702,7 @@
 			(uuid "6855a0a9-79f7-40b0-baa3-c7a1b3bcb241")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "R8")
 					(unit 1)
@@ -4489,7 +4735,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 123.19 87.63 0)
 			(effects
 				(font
@@ -4520,7 +4766,7 @@
 			(uuid "035d466a-d625-4b69-bb0e-0b37b5bce7e8")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "TP2")
 					(unit 1)
@@ -4586,7 +4832,7 @@
 			(uuid "5c300584-4cae-4477-932d-e4dfe540ce73")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "#PWR05")
 					(unit 1)
@@ -4653,7 +4899,7 @@
 			(uuid "5ffd4738-9ef6-4947-bd02-653909b9ea76")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "JP10")
 					(unit 1)
@@ -4758,7 +5004,7 @@
 			(uuid "2fe9e966-d0dd-4b5b-86f1-9c4bf30f820b")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "R15")
 					(unit 1)
@@ -4864,7 +5110,7 @@
 			(uuid "2be997cf-bedc-45bb-9210-91db658928b2")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "R19")
 					(unit 1)
@@ -4969,7 +5215,7 @@
 			(uuid "0ee1b390-652c-47ba-bd76-2f40178983b3")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "D5")
 					(unit 1)
@@ -5036,7 +5282,7 @@
 			(uuid "89d0d559-7a25-421a-9b45-ce074aafed15")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "#PWR016")
 					(unit 1)
@@ -5102,7 +5348,7 @@
 			(uuid "71487ad0-c41d-4abe-8973-3bd5974f73ec")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "#PWR06")
 					(unit 1)
@@ -5168,7 +5414,7 @@
 			(uuid "e960ce5e-8798-4388-ad12-0b5fee012b3a")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "#PWR01")
 					(unit 1)
@@ -5274,7 +5520,7 @@
 			(uuid "d4fd8239-af4d-4517-b03e-1d1ca81b81b9")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "R18")
 					(unit 1)
@@ -5379,7 +5625,7 @@
 			(uuid "3a78c554-05d4-44e0-ad6f-d3868d9c57e8")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "R16")
 					(unit 1)
@@ -5445,7 +5691,7 @@
 			(uuid "206a809f-a321-48d2-874c-204c56df2c1b")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "#PWR02")
 					(unit 1)
@@ -5510,9 +5756,141 @@
 			(uuid "4a311ea6-cdf7-4226-aac5-5df2eed1cd4e")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 129.54 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75579491-6df4-4bd6-a375-ba338572fb2a")
+		(property "Reference" "#PWR021"
+			(at 129.54 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "BATT"
+			(at 129.54 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 129.54 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ed652d2-cbbe-47ce-98de-0bb25125e824")
+		)
+		(instances
+			(project "Sensing systemV3"
+				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 139.7 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7711ba6a-e983-4fed-80cc-ba223a9ae579")
+		(property "Reference" "#PWR020"
+			(at 139.7 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 139.7 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 139.7 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c32c7c63-d592-47bc-ae6a-a039cff40872")
+		)
+		(instances
+			(project "Sensing systemV3"
+				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -5615,7 +5993,7 @@
 			(uuid "89bc9989-0270-4f7d-bde5-cca2dff115b1")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "R6")
 					(unit 1)
@@ -5682,7 +6060,7 @@
 			(uuid "163b65fe-585b-4e0b-9088-847c591d1221")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "#PWR015")
 					(unit 1)
@@ -5786,7 +6164,7 @@
 			(uuid "4edb19bd-8c59-40d7-b0e5-1cf722c0cc7d")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "R4")
 					(unit 1)
@@ -5892,7 +6270,7 @@
 			(uuid "ca354e2a-0854-496a-9481-a5d806cb786a")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "R1")
 					(unit 1)
@@ -5959,7 +6337,7 @@
 			(uuid "fbbad33d-7060-4d4a-9c62-8b951f3be052")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "JP11")
 					(unit 1)
@@ -6025,7 +6403,7 @@
 			(uuid "4d1d5d81-4f1c-4855-817d-f6b9454aa1a8")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "#PWR08")
 					(unit 1)
@@ -6090,7 +6468,7 @@
 			(uuid "1fa39173-562d-4a24-b413-dfb7c846e771")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "#PWR011")
 					(unit 1)
@@ -6123,7 +6501,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 226.06 91.44 0)
 			(effects
 				(font
@@ -6154,7 +6532,7 @@
 			(uuid "c3c0a802-cbf7-4cf2-8849-7c61ee8ddf60")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "TP4")
 					(unit 1)
@@ -6259,7 +6637,7 @@
 			(uuid "78192f55-1519-4cda-be25-ec9651c19c4c")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "R5")
 					(unit 1)
@@ -6365,7 +6743,7 @@
 			(uuid "0c36fc7d-642d-424f-8c7a-4ed7f11fbe61")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "R14")
 					(unit 1)
@@ -6471,7 +6849,7 @@
 			(uuid "5e555e49-b7ea-4a42-86a6-5c223f66e96b")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "D2")
 					(unit 1)
@@ -6577,7 +6955,7 @@
 			(uuid "4a88c24a-e1cd-4371-856f-cae1329b5108")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "R12")
 					(unit 1)
@@ -6683,7 +7061,7 @@
 			(uuid "7de16caf-0cee-4789-91fa-f0b444ae5490")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "R2")
 					(unit 1)
@@ -6750,7 +7128,7 @@
 			(uuid "dd86cb50-d792-4c6a-af19-1a12bbed58d8")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "JP2")
 					(unit 1)
@@ -6817,7 +7195,7 @@
 			(uuid "164b730b-5022-4c22-8d70-3d638f950cdd")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "#PWR017")
 					(unit 1)
@@ -6923,7 +7301,7 @@
 			(uuid "5658baeb-42ee-4953-92e4-66decea7fa23")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "R9")
 					(unit 1)
@@ -6989,7 +7367,7 @@
 			(uuid "ae945544-ae4a-4d68-9e55-53298a168189")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "#PWR012")
 					(unit 1)
@@ -7095,7 +7473,7 @@
 			(uuid "5459ed0e-9917-420a-ad6d-7b123b7d7c2e")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "D6")
 					(unit 1)
@@ -7162,9 +7540,75 @@
 			(uuid "e091706c-1630-4954-b925-8f5eb1860162")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "JP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 64.77 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c27076b1-a70a-4563-83a9-832f2b643cd0")
+		(property "Reference" "#PWR019"
+			(at 64.77 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "BATT"
+			(at 64.77 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 64.77 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa2ac4c4-d85b-41d5-9a0f-1ead9636283f")
+		)
+		(instances
+			(project "Sensing systemV3"
+				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -7229,7 +7673,7 @@
 			(uuid "e505b60e-2158-43de-91bb-b441cd7e179e")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "JP3")
 					(unit 1)
@@ -7346,7 +7790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Populate" ""
+		(property "Populate" "1"
 			(at 54.61 86.36 0)
 			(effects
 				(font
@@ -7365,7 +7809,7 @@
 			(uuid "5cce3f25-5dec-4782-a72c-9c01b8ca7154")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "Q1")
 					(unit 1)
@@ -7432,7 +7876,7 @@
 			(uuid "4feb424e-ca7b-47f0-bd34-ad8ddc33691f")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "JP4")
 					(unit 1)
@@ -7498,7 +7942,7 @@
 			(uuid "3bf0742f-d0b7-435f-92ac-3040e341b407")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "#PWR03")
 					(unit 1)
@@ -7565,7 +8009,7 @@
 			(uuid "4223b1df-eb97-47ea-bd94-6ce8db9a7cd7")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "JP7")
 					(unit 1)
@@ -7581,7 +8025,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "d2ba7543-0aa3-4196-b3b8-2fd9ba58cbf9")
 		(property "Reference" "J1"
 			(at 59.69 165.1001 90)
@@ -7713,7 +8157,7 @@
 			(uuid "6e69138b-e26e-4eed-8406-19e9485b14b2")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "J1")
 					(unit 1)
@@ -7819,7 +8263,7 @@
 			(uuid "4ca4516a-af4c-420f-9c10-efd17e3e6130")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "D1")
 					(unit 1)
@@ -7886,7 +8330,7 @@
 			(uuid "44078bc9-e192-4415-bfc4-fad60135a8fb")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "JP1")
 					(unit 1)
@@ -7953,7 +8397,7 @@
 			(uuid "fe7e00e1-22f7-415a-b87a-15418a08f834")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "JP8")
 					(unit 1)
@@ -7986,7 +8430,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 173.99 90.17 0)
 			(effects
 				(font
@@ -8017,7 +8461,7 @@
 			(uuid "d13bcdde-b237-43e2-ad42-c8da98f798fc")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "TP3")
 					(unit 1)
@@ -8122,7 +8566,7 @@
 			(uuid "241caa47-9b4a-436b-b8b0-f77bd96f857e")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "D4")
 					(unit 1)
@@ -8189,7 +8633,7 @@
 			(uuid "b356a645-e1d3-4ddf-a199-92d5b892e10c")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "JP12")
 					(unit 1)
@@ -8256,7 +8700,7 @@
 			(uuid "7fea6b6b-5fe4-4706-bc0c-068db2d87f2d")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "JP5")
 					(unit 1)
@@ -8361,9 +8805,75 @@
 			(uuid "8b148cd0-bc0d-4564-8d15-6c1afcb5d23b")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 92.71 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eecd4ad7-0012-4d11-b59c-56d72113d2d0")
+		(property "Reference" "#PWR018"
+			(at 92.71 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "BATT"
+			(at 92.71 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 92.71 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "efa8c80c-40e0-439a-85e3-cbec67544851")
+		)
+		(instances
+			(project "Sensing systemV3"
+				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -8467,7 +8977,7 @@
 			(uuid "b88ccb50-7f21-46de-81f2-948c17d83b7d")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "R17")
 					(unit 1)
@@ -8573,7 +9083,7 @@
 			(uuid "b31ceef1-8fd9-48cb-b96b-141ced43d3a6")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "R3")
 					(unit 1)
@@ -8679,7 +9189,7 @@
 			(uuid "869bc6c4-dde0-4ce9-8689-4ebffedf071f")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "R7")
 					(unit 1)
@@ -8712,7 +9222,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 35.56 48.26 0)
 			(effects
 				(font
@@ -8743,7 +9253,7 @@
 			(uuid "9cea6d39-1801-4064-94d0-fe410964a67e")
 		)
 		(instances
-			(project "Sensing systemv2"
+			(project "Sensing systemV3"
 				(path "/70b51fe4-6729-488a-b04c-73a599f9fc86"
 					(reference "TP1")
 					(unit 1)
