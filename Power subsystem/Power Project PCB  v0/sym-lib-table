@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TP4056")(type "KiCad")(uri "C:/Users/imran/OneDrive - University of Cape Town/1 EEE3088F - Design Principles/KiCADv6/2024-03-22_15-55-50.kicad_sym")(options "")(descr ""))
+  (lib (name "MS-22D28-G020")(type "Legacy")(uri "C:/Users/imran/OneDrive - University of Cape Town/1 EEE3088F - Design Principles/Project/PCB Project/KiCad/MS-22D28-G020.lib")(options "")(descr ""))
+)

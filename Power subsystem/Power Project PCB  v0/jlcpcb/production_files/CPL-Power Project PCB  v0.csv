@@ -1,0 +1,27 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,4.7uF,C_0805_2012Metric,150.876,-55.88,180.0,top
+C2,4.7uF,C_0805_2012Metric,152.4,-48.768,0.0,top
+C5,0.1uF,C_0805_2012Metric,133.096,-64.516,90.0,top
+C6,0.1uF,C_0805_2012Metric,120.904,-65.024,90.0,top
+C7,0.1uF,C_0805_2012Metric,143.764,-63.134,90.0,top
+C8,0.1uF,C_0805_2012Metric,150.368,-64.008,90.0,top
+D1,LED,LED_0805_2012Metric,136.652,-49.784,0.0,top
+J1,Conn_02x08_Even_Odd,PinHeader_2x08_P2.54mm_Vertical,135.165,-32.775,-90.0,top
+J2,Conn_02x01,PinHeader_2x01_P2.00mm_Vertical,136.0,-44.0,180.0,top
+JP3,Jumper_2_Open,SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,120.904,-61.102,90.0,top
+JP4,Jumper_2_Open,SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,133.096,-60.594,-90.0,top
+JP5,Jumper_2_Open,SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,143.764,-59.578,90.0,top
+JP6,Jumper_2_Open,SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,150.368,-60.086,-90.0,top
+R5,10k,R_0805_2012Metric,120.904,-55.372,-90.0,top
+R6,10k,R_0805_2012Metric,126.492,-54.356,-90.0,top
+R7,470,R_0805_2012Metric,136.652,-53.848,0.0,top
+R12,2k,R_0805_2012Metric,143.3595,-48.26,0.0,top
+S1,MS-22D28-G020,MS22D28G020,118.364,-46.954,90.0,top
+TP1,TestPoint,TestPoint_Keystone_5019_Minature,116.332,-60.452,90.0,top
+TP2,TestPoint,TestPoint_Keystone_5019_Minature,146.812,-60.0,90.0,top
+TP3,TestPoint,TestPoint_Keystone_5019_Minature,128.524,-60.452,90.0,top
+TP4,TestPoint,TestPoint_Keystone_5019_Minature,139.192,-60.452,90.0,top
+TP5,TestPoint,TestPoint_Keystone_5019_Minature,154.432,-59.944,90.0,top
+U1,MCP73831-2-OT,SOT-23-5,145.6745,-52.95,0.0,top
+U2,DRV8837,WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm,127.25,-45.146,90.0,top
+U3,DRV8837,WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm,149.11,-44.638,90.0,top
