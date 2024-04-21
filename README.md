@@ -19,5 +19,5 @@ Resposible for detecting/sensing objects
 - It will need to be able to be an apporpriate size for balance and space issues
 
 # How this GitHub repo works
-There are 2 main folders for the 2 subsystems that need to be designed: Power and Sensing
-\newline Each of these folders contain the relevant documents that are associated with each subsystem
+There are 2 main folders for the 2 subsystems that need to be designed: Power and Sensing.
+Each of these folders contain the relevant documents that are associated with each subsystem
