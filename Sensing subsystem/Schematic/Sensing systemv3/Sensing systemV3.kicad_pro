@@ -479,7 +479,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "./",
       "plot": "gerbers/",
       "pos_files": "",
       "specctra_dsn": "",

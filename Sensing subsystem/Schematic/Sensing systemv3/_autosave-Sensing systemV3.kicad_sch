@@ -3439,6 +3439,16 @@
 		)
 		(uuid a89dc17c-6ac5-4f65-9f80-834ef66c0453)
 	)
+	(text "Out3"
+		(exclude_from_sim no)
+		(at 228.854 96.012 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0102cbd7-0e68-4df4-a800-acee29d552ad")
+	)
 	(text "IR RECEIVERS"
 		(exclude_from_sim no)
 		(at 195.072 30.734 0)
@@ -3465,7 +3475,7 @@
 	)
 	(text "PE15 is connected to a PWM pin on the \nmicrocontroller to allow for switching \nand brightness control of the LEDs"
 		(exclude_from_sim no)
-		(at 23.368 106.426 0)
+		(at 23.368 109.474 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -3505,6 +3515,16 @@
 			)
 		)
 		(uuid "5fcb486d-0cfb-487c-b7f4-162b2bf7d7f4")
+	)
+	(text "Input"
+		(exclude_from_sim no)
+		(at 67.056 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "87f0a0bc-ac29-41ee-b45f-4eda9717929b")
 	)
 	(text "PA4 is connected to an ADC pin"
 		(exclude_from_sim no)
@@ -3556,6 +3576,16 @@
 		)
 		(uuid "cccc60c2-b4a4-4573-92c7-f5f040970bbe")
 	)
+	(text "Out2"
+		(exclude_from_sim no)
+		(at 176.53 94.996 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cd76172f-c38c-4702-8904-a895a9b7966d")
+	)
 	(text "Left IR Emitter"
 		(exclude_from_sim no)
 		(at 64.516 39.37 0)
@@ -3586,6 +3616,16 @@
 			)
 		)
 		(uuid "e0da29e1-9051-4183-a48b-5792acf28686")
+	)
+	(text "Out1"
+		(exclude_from_sim no)
+		(at 125.73 92.202 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f8423e57-81b7-4138-958d-00836ace6fe2")
 	)
 	(label "PE9"
 		(at 76.2 148.59 0)
