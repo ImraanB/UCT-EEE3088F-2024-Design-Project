@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "001f1e4f-643b-48c2-9c52-6b76bdbd7464")
 	(paper "A4")
+	(title_block
+		(title "EEE3088F Micromouse Power Subsystem Circuit")
+		(date "2024-03-24")
+		(rev "V0")
+		(comment 3 "ADMIMR011")
+		(comment 4 "Imran Adams")
+	)
 	(lib_symbols
 		(symbol "Battery_Management:MCP73831-2-OT"
 			(exclude_from_sim no)
